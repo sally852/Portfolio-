@@ -1,0 +1,131 @@
+/* NavBar   */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav_bar{
+    position: fixed;
+    max-width: 1440px;
+    width: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: #CDCFCF;
+    padding: 0 5%;
+}
+
+.nav_bar div{
+    color:#6a5845 ;
+    font-size: 22px;
+    font-weight: 900 ;
+   
+}
+.nav_bar ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+  }
+  
+.nav_bar ul li a,
+.nav_bar ul li button {
+    background: none;
+    border: none;
+    font: inherit;
+    color: #6a5845;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 8px 0;
+    transition: color 0.3s, border-top 0.3s;
+}
+  
+.nav_bar ul li a.active {
+    color: #6a5845;
+    border-top: 2px solid #0065FC;
+    padding-top: 15px;
+}
+.nav_bar ul li a:hover,
+.nav_bar ul li button:hover {
+  color: #6a5845;
+}
+  
+/*main*/
+.accueil,
+.nav_bar {
+  background-image: url('../assets/Img.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+  
+  .content {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.4); /* Optional: semi-transparent background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 18px;
+  }
+  
+/*footer*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%; 
+    height: 90px;
+    background-color:#fcf1e1 ;
+    border-top: 1px #6a5845 solid;
+}
+.footer div{
+    font-size: 22px;
+    font-weight: 900 ;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    gap: 5%; 
+}
+.footer ul li{
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100px;
+}
+.social-icons {
+    display: flex;
+    gap: 60%;
+}
+
+.social-icons a {
+    font-size: 30px;
+    color: #6a5845;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0065FC; 
+}
+
+
+
+.text{
+    color: #e60a0a;
+}
