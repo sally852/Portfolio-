@@ -17,9 +17,9 @@
     justify-content: space-between;
     align-items: center;
     height: 90px;
-    background-color: #455763;
+    background-color:  #F8EFE5;
     padding: 0 5%;
-    border-bottom: 1px #6a5845 solid;
+   
 }
 
 .nav_bar div{
@@ -40,7 +40,7 @@
     background: none;
     border: none;
     font: inherit;
-    color: #D3DADC;
+    color: #38b0d2;
     cursor: pointer;
     text-decoration: none;
     padding: 8px 0;
@@ -105,7 +105,8 @@
 
 
 .about{
-    padding: 0 80px;
+    padding: 30px 80px;
+    background-color: #ab9a86;
 }
 .about h2{
     padding-bottom: 30px;
@@ -113,6 +114,7 @@
 }
 .skills{
     padding: 50px 80px;
+    background-color: #ab9a86;
 }
 .skills h2{
     padding-bottom: 30px;
@@ -129,12 +131,13 @@
     border-radius: 50%;
 }
 
+
+
 .my-projects {
     padding: 20px;
     max-width: 1240px;
     margin: 0 auto;
-    background-color: #f6f6f6;
-    border-radius: 25px;
+   
   }
   .my-projects h2{
     padding-bottom: 50px;
@@ -202,6 +205,30 @@
   .see-more:hover {
     background-color: #4a3f32;
   }
+
+  .hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 8px;
+    pointer-events: none; /* pour que le clic passe à Link */
+  }
+  
+  .project-card:hover .hover-overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
   
 
   
@@ -248,4 +275,67 @@
 }
 
 
+
+
+
+.continer{
+    display: flex;
+    margin-top: 90px;
+    width: 100%;
+    max-width: 1440px;
+    height: calc(100vh - 90px);
+    padding: 50px 100px ;
+}
+
+.carousel{
+    position: relative;
+    width: 40%;
+    margin-right: 5%;
+    border: solid ;
+}
+.carousel-img{
+  width: 100%;
+  border-radius: 25px;
+  height: 415px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.carousel-counter {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+}
+.carousel-btn {
+    position: absolute;
+    top: 45%;
+    background: none;
+    color: rgb(11, 11, 11);
+    font-size: 40px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.carousel-btn.left {
+    left: 10px;
+}
+.carousel-btn.right {
+    right: 10px;
+}
+.info{
+    width: 60%;
+}
+.info h2{
+    border-bottom: solid 3px;
+    padding-bottom: 20px;
+    width: 70%;
+}
+.descrition{
+    margin-top: 10px;
+}
+.tags{
+    display: flex;
+    border-radius: solid 1px ;
+}
 

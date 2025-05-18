@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home';
+import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import { BrowserRouter as Router, Routes, Route } from "react-router";
@@ -11,6 +12,7 @@ root.render(
     <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/project/:id" element={<Projects />} />
           <Route path="/About" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>  

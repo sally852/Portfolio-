@@ -1,6 +1,6 @@
 import './../styles/style.css';
 import NavBar from"../components/NavBar.js"
-import Projects from"../components/Projects.js"
+import Projects from"../components/Projectss.js"
 import Footer from'../components/Footer.js'
 
 

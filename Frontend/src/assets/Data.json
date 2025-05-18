@@ -4,13 +4,12 @@
         "title": "Booki",
         "cover": "/images/booki-cover.png",
         "pictures": [
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+            "/images/booki-cover.png",
+            "/images/booki-picturer1.png",
+            "/images/booki-picture2.png"
         ],
         "description": "Create the homepage of a travel agency using HTML & CSS.",
+        "text": "Mon Vieux Grimoire est un projet pédagogique que j'ai développé dans le cadre de ma formation en développement web chez OpenClassrooms. J'ai créé ce site web en utilisant Node.js avec Express et MongoDB comme backend. Le concept de Mon Vieux Grimoire tourne autour d'une librairie en ligne où les utilisateurs peuvent explorer, répertorier et noter leurs livres préférés. J'ai mis en place un système de connexion sécurisé pour permettre aux utilisateurs de gérer leurs collections de livres et de partager leurs recommandations littéraires. Grâce à cette expérience, j'ai renforcé mes compétences en développement backend, en gestion de base de données et en sécurité des applications web.",
         "link": {
             "code": "Nathalie Jean",
             "project": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
@@ -25,11 +24,10 @@
         "title": "Sophie Bluel",
         "cover": "/images/sophie-cover.png",
         "pictures": [
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+            "/images/sophie-cover.png",
+            "/images/sophie-picture1.png",
+            "/images/sophie-picture2.png",
+            "/images/sophie-picture3.png"
         ],
         "description": "Create a dynamic web page with JavaScript.",
         "link": {
@@ -54,6 +52,7 @@
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
         ],
         "description": "Develop the back-end of a book rating website",
+        "text": "Mon Vieux Grimoire est un projet pédagogique que j'ai développé dans le cadre de ma formation en développement web chez OpenClassrooms. J'ai créé ce site web en utilisant Node.js avec Express et MongoDB comme backend. Le concept de Mon Vieux Grimoire tourne autour d'une librairie en ligne où les utilisateurs peuvent explorer, répertorier et noter leurs livres préférés. J'ai mis en place un système de connexion sécurisé pour permettre aux utilisateurs de gérer leurs collections de livres et de partager leurs recommandations littéraires. Grâce à cette expérience, j'ai renforcé mes compétences en développement backend, en gestion de base de données et en sécurité des applications web.",
         "link": {
             "code": "Nathalie Jean",
             "project": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
@@ -78,6 +77,7 @@
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
         ],
         "description": "Plan the development of your client's website",
+        "text": "Mon Vieux Grimoire est un projet pédagogique que j'ai développé dans le cadre de ma formation en développement web chez OpenClassrooms. J'ai créé ce site web en utilisant Node.js avec Express et MongoDB comme backend. Le concept de Mon Vieux Grimoire tourne autour d'une librairie en ligne où les utilisateurs peuvent explorer, répertorier et noter leurs livres préférés. J'ai mis en place un système de connexion sécurisé pour permettre aux utilisateurs de gérer leurs collections de livres et de partager leurs recommandations littéraires. Grâce à cette expérience, j'ai renforcé mes compétences en développement backend, en gestion de base de données et en sécurité des applications web.",
         "link": {
             "code": "Nathalie Jean",
             "project": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"

@@ -21,7 +21,7 @@ function Main() {
                 <p  className='h'>Passionate about building clean, modern websites.</p>
                 <button>know more about me</button>
             </div>
-            <div>
+            <div className='about-me'>
                 <div className='about'>
                     <h2>About me</h2>
                     <p>I'm a junior web developer with a solid grasp of HTML, CSS, JavaScript, and React. I enjoy turning ideas into simple, responsive websites that are easy to use and visually clean.
@@ -35,9 +35,6 @@ function Main() {
                         <li>CSS</li>
                         <li>JS</li>
                         <li>React</li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
                     </ul>
                 </div>
             </div>
