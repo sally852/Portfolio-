@@ -19,7 +19,7 @@ function NavBar() {
     };
     return(
         <div className="nav_bar">
-            <div className='logo'> Amina Sally </div>
+            <div className='logo'> </div>
             <ul>
                 <li><button onClick={() => scrollToSection('home')}>Accueil</button></li>
                 <li><NavLink to="/about">About Me</NavLink></li>
