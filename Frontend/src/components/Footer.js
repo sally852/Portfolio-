@@ -1,5 +1,6 @@
 import React from 'react';
 import {  FaGithub, FaLinkedinIn, FaBehance } from 'react-icons/fa';
+import NavLinks from './NavLinks';
 
 function Footer() {
   return (
@@ -13,22 +14,23 @@ function Footer() {
                     brands and engage audiences.
                 </p>
                 <div className="social-icons">
-                    
-                    <a href="#"><FaGithub/></a>
-                    <a href="#"><FaLinkedinIn /></a>
-                    <a href="#"><FaBehance /></a>
+                    <a href="https://github.com/sally852" target="_blank" rel="noopener noreferrer">
+                        <FaGithub />
+                    </a>
+                    <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedinIn />
+                    </a>
+                    <a href="https://www.behance.net/your-username" target="_blank" rel="noopener noreferrer">
+                        <FaBehance />
+                    </a>
                 </div>
+
             </div>
 
             {/* Column 2 */}
             <div className="footer-links">
                 <h3>Quick Links</h3>
-                <ul>
-                    <li>Home</li>
-                    <li>About Me</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
-                </ul>
+                <NavLinks styleVariant="footer-style" />
             </div>
        </div>
 

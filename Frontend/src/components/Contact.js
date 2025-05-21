@@ -39,8 +39,12 @@ function Contact() {
                 </div>
 
                 <div className="socials">
-                    <a href="#"><FaGithub size={22} /></a>
-                    <a href="#"><FaLinkedinIn size={22} /></a>
+                    <a href="https://github.com/sally852" target="_blank" rel="noopener noreferrer">
+                        <FaGithub />
+                    </a>
+                    <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedinIn />
+                    </a>
 
                 </div>
             </div>

@@ -63,20 +63,6 @@
     color:  #af9fbd;
   }
  
-  .nav_links li:last-child a {
-    background: linear-gradient(to right, #d14b92, #a758e9);
-    color: #fff ;
-    font-weight: 600;
-    padding: 10px 22px;
-    border-radius: 30px;
-    border: none;
-    transition: 0.3s ease;
-  }
-  
-  .nav_links li:last-child a:hover {
-    transform: scale(1.05);
-  }
-
   .nav_links .contact_button {
     align-self: flex-start;
     padding: 10px 20px;
@@ -95,7 +81,6 @@
   
   .nav_links .contact_button:hover {
     transform: scale(1.05);
-    opacity: 1 !important;
     color: #fff;
   }
   
@@ -115,7 +100,7 @@
   .content .h3 {
     font-size: 68px;
     font-weight: 800;
-    color: #a758e9);
+    color: #a758e9;
     line-height: 1.2;
   }
   
@@ -265,6 +250,7 @@
     transform: scale(1.05);
   }
   
+
 /*  project sectio n */
 
 .my-projects {
@@ -272,7 +258,7 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    background: linear-gradient(135deg, #fceef7, #e0d9fb);
+    background:  #e9e5f6;
   }
 
   .my-projects h2 {
@@ -475,11 +461,11 @@
   .contact-info .socials a {
     color: white;
     transition: 1.3s;
+    font-size: 22px;
   }
   
   .contact-info .socials a:hover {
-    color: #ffe1f4;
-    transform: scale(2.01);
+    transform: scale(1.25);
   }
   
   /* Form */
@@ -570,6 +556,34 @@
     line-height: 1.6;
     color: #b5b5b5;
   }
+  .nav_links.footer-style {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0;
+    border: none;
+}
+  .nav_links.footer-style li a,
+  .nav_links.footer-style button {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #c7c7c7 !important;
+    font: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1e2235 ;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: none
+  }
+  
+  .nav_links.footer-style li a:hover,
+  .nav_links.footer-style li button:hover {
+    color:  #fff !important;
+    transform: none!important;
+  }
   
   .footer-links,
   .footer-services {
@@ -597,25 +611,8 @@
     margin-top: 5px;
   }
   
-  .footer-links ul,
-  .footer-services ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-links li,
-  .footer-services li {
-    margin-bottom: 12px;
-    color: #c7c7c7;
-    cursor: pointer;
-    transition: color 0.3s ease;
-  }
-  
-  .footer-links li:hover,
-  .footer-services li:hover {
-    color: white;
-  }
-  
+
+
   .social-icons {
     display: flex;
     gap: 15px;
@@ -649,6 +646,14 @@
     color: #aaa;
     font-size: 14px;
   }
+ 
+ 
+
+
+
+  
+
+  
   
   
   
@@ -742,6 +747,17 @@
     margin-top: 10px;
     line-height: 1.6;
     font-size: 16px;
+}
+.link{
+    margin-top: 10px;
+    color: black;
+    font-weight: 500;
+}
+.github-link{
+    color:#444a67;
+}
+.github-link:hover{
+    color:#4c67de;
 }
 
 /*  Tags */
@@ -844,7 +860,7 @@
   
   
   
-  /* Responsive nav */
+  
 
   
 
