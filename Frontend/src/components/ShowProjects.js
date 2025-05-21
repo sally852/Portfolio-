@@ -1,6 +1,6 @@
 import data from './../assets/Data.json';
 import { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link pour la navigation
+import { Link } from 'react-router-dom'; 
 import './../styles/style.css';
 
 const ProjectSection = () => {
@@ -8,7 +8,7 @@ const ProjectSection = () => {
   const visibleProjects = showAll ? data : data.slice(0, 4);
 
   return (
-    <section className="my-projects">
+    <section className="my-projects" id="projects">
       <h2>My Projects</h2>
       <ul className="projects-list">
         {visibleProjects.map((project) => (

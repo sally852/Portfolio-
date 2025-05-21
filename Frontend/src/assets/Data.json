@@ -4,16 +4,13 @@
         "title": "Booki",
         "cover": "/images/booki-cover.png",
         "pictures": [
-            "/images/booki-cover.png",
             "/images/booki-picturer1.png",
-            "/images/booki-picture2.png"
+            "/images/booki-picture3.png"
+            
         ],
         "description": "Create the homepage of a travel agency using HTML & CSS.",
-        "text": "Mon Vieux Grimoire est un projet pédagogique que j'ai développé dans le cadre de ma formation en développement web chez OpenClassrooms. J'ai créé ce site web en utilisant Node.js avec Express et MongoDB comme backend. Le concept de Mon Vieux Grimoire tourne autour d'une librairie en ligne où les utilisateurs peuvent explorer, répertorier et noter leurs livres préférés. J'ai mis en place un système de connexion sécurisé pour permettre aux utilisateurs de gérer leurs collections de livres et de partager leurs recommandations littéraires. Grâce à cette expérience, j'ai renforcé mes compétences en développement backend, en gestion de base de données et en sécurité des applications web.",
-        "link": {
-            "code": "Nathalie Jean",
-            "project": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
-        },
+        "text": "Booki is a website designed to help users find and book accommodations easily. During the integration of its user interface, I faced challenges related to responsive design. Using only HTML and CSS, I ensured the site was fully accessible and functional across various devices and screen sizes. I carefully followed the provided design mockups to guarantee visual and functional consistency. This project allowed me to deepen my expertise in responsive design and accurate implementation of design specifications.",
+        "link": "https://github.com/sally852/Booki",
         "tags": [
             "HTML",
             "CSS"
@@ -24,16 +21,14 @@
         "title": "Sophie Bluel",
         "cover": "/images/sophie-cover.png",
         "pictures": [
-            "/images/sophie-cover.png",
+            "/images/Capture d'écran 2025-05-20 004421.png",
             "/images/sophie-picture1.png",
-            "/images/sophie-picture2.png",
-            "/images/sophie-picture3.png"
+            "/images/Capture d'écran 2025-05-20 004434.png",
+            "/images/Capture d'écran 2025-05-20 004442.png"
         ],
         "description": "Create a dynamic web page with JavaScript.",
-        "link": {
-            "code": "Nathalie Jean",
-            "project": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
-        },
+        "text": "Sophie Bluel is an interior architect whose portfolio website required both interactivity and secure user management. During its development, I implemented a dynamic project gallery and a secure login page for the site administrator. One of the key features was a modal window for adding new projects, which involved careful state management and input validation. These functionalities made the portfolio interactive and easy to manage, enhancing both the user experience and content administration.",
+       "link": "https://github.com/sally852/Portfolio-architecte-sophie-bluel",
         "tags": [
             "HTML",
             "CSS",
@@ -45,18 +40,15 @@
         "title": "My old Grimoire",
         "cover": "/images/old-grimoire-cover.png",
         "pictures": [
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+            "/images/Capture d'écran 2025-05-20 165938.png",
+            "/images/Capture d'écran 2025-05-20 165756.png",
+            "/images/Capture d'écran 2025-05-20 165901.png",
+            "/images/Capture d'écran 2025-05-20 170022.png",
+            "/images/Capture d'écran 2025-05-20 170057.png"
         ],
         "description": "Develop the back-end of a book rating website",
-        "text": "Mon Vieux Grimoire est un projet pédagogique que j'ai développé dans le cadre de ma formation en développement web chez OpenClassrooms. J'ai créé ce site web en utilisant Node.js avec Express et MongoDB comme backend. Le concept de Mon Vieux Grimoire tourne autour d'une librairie en ligne où les utilisateurs peuvent explorer, répertorier et noter leurs livres préférés. J'ai mis en place un système de connexion sécurisé pour permettre aux utilisateurs de gérer leurs collections de livres et de partager leurs recommandations littéraires. Grâce à cette expérience, j'ai renforcé mes compétences en développement backend, en gestion de base de données et en sécurité des applications web.",
-        "link": {
-            "code": "Nathalie Jean",
-            "project": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
-        },
+        "text": "My Old Grimoire is an educational project I developed as part of my web development training at OpenClassrooms. The application was built using Node.js with Express and MongoDB on the backend. The platform functions as an online library where users can browse, catalog, and rate their favorite books. I implemented a secure authentication system to enable users to manage their personal book collections and share literary recommendations. This project allowed me to strengthen my skills in backend development, database design, and web application security.",
+        "link": "https://github.com/sally852/My-old-grimoire",
         "tags": [
             "Node.js",
             "Express",
@@ -70,18 +62,17 @@
         "title": "Menu Maker",
         "cover": "/images/menu-maker-cover.png",
         "pictures": [
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+            "/images/menu-maker-cover.png",
+            "/images/Capture d'écran 2025-05-18 102230.png",
+            "/images/Capture d'écran 2025-05-18 102259.png",
+            "/images/Capture d'écran 2025-05-18 102356.png",
+            "/images/Capture d'écran 2025-05-18 102313.png",
+            "/images/Capture d'écran 2025-05-18 102337.png"
         ],
         "description": "Plan the development of your client's website",
-        "text": "Mon Vieux Grimoire est un projet pédagogique que j'ai développé dans le cadre de ma formation en développement web chez OpenClassrooms. J'ai créé ce site web en utilisant Node.js avec Express et MongoDB comme backend. Le concept de Mon Vieux Grimoire tourne autour d'une librairie en ligne où les utilisateurs peuvent explorer, répertorier et noter leurs livres préférés. J'ai mis en place un système de connexion sécurisé pour permettre aux utilisateurs de gérer leurs collections de livres et de partager leurs recommandations littéraires. Grâce à cette expérience, j'ai renforcé mes compétences en développement backend, en gestion de base de données et en sécurité des applications web.",
-        "link": {
-            "code": "Nathalie Jean",
-            "project": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
-        },
+        "text": "Menu Maker by Qwenta is a web application project I helped plan as part of my role at Webgencia. I was responsible for project preparation and coordination, which involved conducting thorough technical research to identify the most suitable tools and best practices.  I wrote detailed functional specifications, outlined the project roadmap, and used Notion with a Kanban board to manage and track tasks. I also designed several presentations to effectively communicate the project’s progress to both stakeholders and the development team. This project strengthened my skills in project planning, technical documentation, and agile workflow management."
+      ,
+     
         "tags": [
             "Node.js",
             "Express",
@@ -93,19 +84,18 @@
     {
         "id": "3",
         "title": "Nina Carducci",
-        "cover": "/images/Img.jpeg",
+        "cover": "/images/Capture d'écran 2025-05-20 164835.png",
         "pictures": [
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+            "/images/Capture d'écran 2025-05-20 164835.png",
+            "/images/Capture d'écran 2025-05-20 164913.png",
+            "/images/Capture d'écran 2025-05-20 164952.png",
+            "/images/Capture d'écran 2025-05-20 165007.png"
         ],
         "description": "Debug and optimize a photographer’s website.",
-        "link": {
-            "code": "Nathalie Jean",
-            "project": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
-        },
+        "text": "Debug and optimize a photographer’s website is a project focused on improving the performance and SEO of Nina Carducci’s photography website. Originally built with jQuery, the site contained several bugs that I identified and resolved to ensure proper functionality. To optimize loading speed, I converted all images to the modern WebP format, reducing the total image size by 95.44%. I also enhanced the site’s visibility by adding Open Graph meta tags and structured data using schema.org. Additionally, I used preload and defer attributes to optimize the loading of critical resources, which significantly boosted the site's Lighthouse performance score. This project allowed me to strengthen my skills in performance optimization, SEO, and debugging legacy front-end code.",
+
+
+      "link": "https://github.com/sally852/Nina-Carducci-Dev",
         "tags": [
             "Debugging",
             "SEO",
@@ -118,19 +108,16 @@
     {
         "id": "4",
         "title": "Kasa",
-        "cover": "/images/Img.jpeg",
+        "cover": "/images/Capture d'écran 2025-05-20 163618.png",
         "pictures": [
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+            "/images/Capture d'écran 2025-05-20 163618.png",
+            "/images/Capture d'écran 2025-05-20 163724.png",
+            "/images/Capture d'écran 2025-05-20 163649.png"
         ],
         "description": "Create a web application for property rentals with React",
-        "link": {
-            "code": "Nathalie Jean",
-            "project": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
-        },
+        "text": "Kasa is a platform specializing in peer-to-peer apartment rentals. For its redesign, I faced significant challenges related to modularity and dependency management. Using React for the front-end, I developed reusable components and implemented React Router to ensure smooth and dynamic navigation. I also integrated the Figma mockups using Sass to create a clean and maintainable stylesheet structure. One of the key aspects of the project was applying principles of dependency inversion and dependency injection to build a modular and scalable architecture. This project allowed me to strengthen my expertise in React development, front-end architecture, and clean code practices.",
+        
+        "link": "https://github.com/sally852/Kasa",
         "tags": [
             "Debugging",
             "SEO",
