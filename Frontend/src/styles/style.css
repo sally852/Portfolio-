@@ -88,11 +88,15 @@
 
 
   /* SECTION PRINCIPALE */
-  .accueil {
-    padding-top: 40px;
-    text-align: center;
-    background: linear-gradient(135deg, #fceef7, #e0d9fb);
-  }
+.accueil {
+  padding-top: 40px;
+  text-align: center;
+  background-image: url(../../public/images/backgound.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
   
   .content{
    margin: 170px 0;
@@ -100,13 +104,13 @@
   .content .h3 {
     font-size: 68px;
     font-weight: 800;
-    color: #a758e9;
+    color: #1e2235;
     line-height: 1.2;
   }
   
   .content .h1 {
     color: #bb46aa;
-    background: linear-gradient(to right, #e52ba4, #a758e9);
+    background: linear-gradient(to right, #df92c4, #936cb3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 58px;
@@ -116,7 +120,7 @@
   .content .h2 {
     font-size: 18px;
     font-weight: 600;
-    color:  #1e2235;
+    color:  #3b6ece;
     margin-top: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -127,7 +131,7 @@
     margin-top: 20px;
     max-width: 600px;
     margin-inline: auto;
-    color: #444;
+    color: #1e2235;
     font-family:'Times New Roman', Times, serif
   }
   
@@ -142,7 +146,7 @@
   
   .content .buttons a {
     display: inline-block;
-    padding: 17px 35px;
+    padding: 17px 30px;
     border-radius: 30px;
     font-weight: 700;
     text-decoration: none;
@@ -154,11 +158,12 @@
   .content .buttons .primary {
     background: linear-gradient(to right, #d16ba5, #86a8e7);
     color: white;
+    opacity: 80%;
   }
   
   .content .buttons .secondary {
-    border: 2px solid #d14b92;
-    color: #d14b92;
+    border: 2px solid #cf8cb0;
+    color: #cf8cb0;
     background: white;
   }
   .content .buttons .primary:hover {
@@ -235,7 +240,7 @@
     height: 100px;
     line-height: 100px;
     border-radius: 50%;
-    background: #c3d3f0;
+    background: #d0dcf2;
     color: #1e2235;
     font-weight: 700;
     font-size: 0.9rem;
@@ -251,14 +256,14 @@
   }
   
 
-/*  project sectio n */
+/************** project sectio n **************/
 
 .my-projects {
     padding: 50px;
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    background:  #e9e5f6;
+    background:  #f0eef7;
   }
 
   .my-projects h2 {

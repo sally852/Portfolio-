@@ -15,19 +15,19 @@ function About() {
             </p>
             </div>
             <div className="skills-content">
-            <h2 className="section-title">Technical Skills</h2>
-            <ul className="skills-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JS</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>MongoDB</li>
-                <li>GIT</li>
-                <li>NPM</li>
-                <li>SEO</li>
-            </ul>
+                <h2 className="section-title">Technical Skills</h2>
+                <ul className="skills-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>MongoDB</li>
+                    <li>GIT</li>
+                    <li>NPM</li>
+                    <li>SEO</li>
+                </ul>
             </div>
        </div>
     );

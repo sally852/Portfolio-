@@ -18,7 +18,7 @@ function Main() {
         <p className="h4">Passionate about building clean, modern websites.</p>
         <div className="buttons">
           <a href="#projects" className="primary">View My Work →</a>
-          <a href="#about" className="secondary">About Me ❤️</a>
+          <a href="#about" className="secondary">About Me </a>
         </div>
       </div>
 
