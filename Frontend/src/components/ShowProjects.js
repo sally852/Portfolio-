@@ -9,7 +9,7 @@ const ProjectSection = () => {
 
   return (
     <section className="my-projects" id="projects">
-      <h2>My Projects</h2>
+      <h2>Projects</h2>
       <ul className="projects-list">
         {visibleProjects.map((project) => (
           <li key={project.id} className="project-card">
