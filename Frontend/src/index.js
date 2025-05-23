@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
+import ScrollToUp from './components/ScrollToUp.js';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import { BrowserRouter as Router, Routes, Route } from "react-router";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
+        <ScrollToUp />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project/:id" element={<Projects />} />

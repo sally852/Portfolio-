@@ -28,7 +28,7 @@
         ],
         "description": "Create a dynamic web page with JavaScript.",
         "text": "Sophie Bluel is an interior architect whose portfolio website required both interactivity and secure user management. During its development, I implemented a dynamic project gallery and a secure login page for the site administrator. One of the key features was a modal window for adding new projects, which involved careful state management and input validation. These functionalities made the portfolio interactive and easy to manage, enhancing both the user experience and content administration.",
-       "link": "https://github.com/sally852/Portfolio-architecte-sophie-bluel",
+         "link": "https://github.com/sally852/Portfolio-architecte-sophie-bluel",
         "tags": [
             "HTML",
             "CSS",
@@ -72,7 +72,7 @@
         "description": "Plan the development of your client's website",
         "text": "Menu Maker by Qwenta is a web application project I helped plan as part of my role at Webgencia. I was responsible for project preparation and coordination, which involved conducting thorough technical research to identify the most suitable tools and best practices.  I wrote detailed functional specifications, outlined the project roadmap, and used Notion with a Kanban board to manage and track tasks. I also designed several presentations to effectively communicate the project’s progress to both stakeholders and the development team. This project strengthened my skills in project planning, technical documentation, and agile workflow management."
       ,
-     
+      
         "tags": [
             "Node.js",
             "Express",
